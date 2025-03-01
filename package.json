@@ -1,0 +1,16 @@
+{
+  "name": "i-love-web-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^7.0.5",
+    "astro": "^5.4.1",
+    "svelte-hamburgers": "^5.0.0"
+  }
+}

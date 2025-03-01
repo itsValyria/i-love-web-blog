@@ -1,0 +1,67 @@
+/* ---------------- Font Imports ---------------- */
+
+@font-face {
+  font-family: 'MuseoSans';
+  src: url(/fonts/MuseoSans.otf);
+}
+
+@font-face {
+  font-family: 'GilroyLight';
+  src: url(/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: 'GilroyBold';
+  src: url(/fonts/Gilroy-ExtraBold.ttf);
+}
+
+
+/* ---------------- Varibales ---------------- */
+
+:root {
+  --white: #fff;
+  --grey--200: #e4e4e7;
+  --grey--400: #a1a1aa;
+  --grey--600: #52525b;
+  --grey--800: #27272a;
+  --black: #000;
+
+  --red--200: #fecaca;
+  --red--400: #f87171;
+  --orange--200: #fed7aa;
+  --orange--400: #fb923c;
+  --yellow--200: #ffeb9c;
+  --yellow--400: #f8c84d;
+  --green--200: #d9f99d;
+  --green--400: #99da31;
+  --blue--200: #bae6fd;
+  --blue--400: #38bdf8;
+  --purple--200: #ddd6fe;
+  --purple--400: #a78bfa;
+  --pink--200: #fbcfe8;
+  --pink--400: #fb719d;
+}
+
+/* ---------------- Global styles ---------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'MuseoSans';
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GilroyLight';
+}
+
+ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: unset;
+  padding: 0;
+  margin: 0;
+}
